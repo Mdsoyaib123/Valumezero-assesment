@@ -3,11 +3,11 @@ import { IoLogoApple } from "react-icons/io";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoBagOutline } from "react-icons/io5";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-
+import './Navbar.css'
 const Navbar = () => {
     return (
-        <div>
-            <ul className="flex justify-center items-center py-3 gap-7">
+        <div className="">
+            <ul className="w-[996px] mx-auto flex justify-center items-center py-3 gap-6">
                 <li><NavLink to='/'><IoLogoApple size={25}></IoLogoApple></NavLink></li>
                 <li><NavLink to='/'><p>Store</p></NavLink></li>
                 <li><NavLink to='/'><p>Mac</p></NavLink></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <li><NavLink to='/'><button><IoSearchOutline size={20}></IoSearchOutline></button></NavLink></li>
                 <li><NavLink to='/'><button><IoBagOutline size={20}></IoBagOutline></button></NavLink></li>
             </ul>
-            <div className="flex justify-center text-white  py-5">
+            <div className="section2 flex justify-center text-white  py-5">
                 <h1 className="flex gap-5 ">Join the Earth Day by recycling your Apple devices. <a href="#" className="flex items-center gap-2 text-blue-400">Recycle for free <MdOutlineKeyboardArrowRight size={20}></MdOutlineKeyboardArrowRight></a></h1>
             </div>
         </div>
