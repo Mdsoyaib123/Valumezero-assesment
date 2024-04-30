@@ -3,7 +3,7 @@ const ProductSection = () => {
     <div>
       <div className="relative flex  justify-center">
         <img
-          className="w-full h-[514px] "
+          className="w-full h-[514px] object-cover "
           src="https://i.postimg.cc/bJ6D6J9Z/4ede02c489cde9ca7f4c9e878a48665e.jpg"
           alt=""
         />
@@ -22,7 +22,7 @@ const ProductSection = () => {
       </div>
       <div className="relative flex  justify-center">
         <img
-          className="w-full h-[514px] "
+          className="w-full h-[514px] object-cover "
           src="https://i.postimg.cc/gcsf6QbJ/f6962e6940816d30f8b47b1dbb7d39b6.jpg"
           alt=""
         />

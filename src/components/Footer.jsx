@@ -1,59 +1,61 @@
 const Footer = () => {
   return (
     <div className=" mt-5 bg-[#f5f5f7] ">
-      <div className="w-[979.93px] mx-auto pt-5 text[12px]">
-        <p>
-          1. Trade-in values will vary based on the condition, year, and
-          configuration of your eligible trade-in device. Not all devices are
-          eligible for credit. You must be at least 18 years old to be eligible
-          to trade in for credit or for an Apple Gift Card. Trade-in value may
-          be applied toward qualifying new device purchase, or added to an
-          Apple Gift Card. Actual value awarded is based on receipt of a
-          qualifying device matching the description provided when estimate was
-          made. Sales tax may be assessed on full value of a new device
-          purchase. In-store trade-in requires presentation of a valid photo ID
-          (local law may require saving this information). Offer may not be
-          available in all stores, and may vary between in-store and online
-          trade-in. Some stores may have additional requirements. Apple or its
-          trade-in partners reserve the right to refuse or limit quantity of any
-          trade-in transaction for any reason. More details are available from
-          Apple’s trade-in partner for trade-in and recycling of eligible
-          devices. Restrictions and limitations may apply.
-        </p>
-        <br />
-        <p>
-          Available in the U.S. on apple.com, in the Apple Store app, and at
-          Apple Stores.
-        </p>
-        <br />
-        <p>
-          To access and use all Apple Card features and products available only
-          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
-          iPad that supports and has the latest version of iOS or iPadOS.
-          Apple Card is subject to credit approval, available only for
-          qualifying applicants in the United States, and issued by Goldman
-          Sachs Bank USA, Salt Lake City Branch.
-        </p>
-        <br />
-        <p>
-          If you reside in the U.S. territories, please call Goldman Sachs at
-          877-255-5923 with questions about Apple Card.
-        </p>
-        <br />
-        <p>
-          Learn more about how Apple Card applications are evaluated at
-          support.apple.com/kb/HT209218.
-        </p>
-        <br />
-        <p>A subscription is required for Apple TV+.</p>
-        <br />
-        <p className="pb-4">
-          A subscription is required for Apple Arcade, Apple Fitness+, and
-          Apple Music.
-        </p>
-        <hr />
+      <div className="w-full lg:w-[979.93px] mx-auto pt-5 text[12px]">
+        <div className="px-4 lg:px-0">
+          <p>
+            1. Trade-in values will vary based on the condition, year, and
+            configuration of your eligible trade-in device. Not all devices are
+            eligible for credit. You must be at least 18 years old to be
+            eligible to trade in for credit or for an Apple Gift Card. Trade-in
+            value may be applied toward qualifying new device purchase, or added
+            to an Apple Gift Card. Actual value awarded is based on receipt of a
+            qualifying device matching the description provided when estimate
+            was made. Sales tax may be assessed on full value of a new device
+            purchase. In-store trade-in requires presentation of a valid photo
+            ID (local law may require saving this information). Offer may not be
+            available in all stores, and may vary between in-store and online
+            trade-in. Some stores may have additional requirements. Apple or its
+            trade-in partners reserve the right to refuse or limit quantity of
+            any trade-in transaction for any reason. More details are available
+            from Apple’s trade-in partner for trade-in and recycling of eligible
+            devices. Restrictions and limitations may apply.
+          </p>
+          <br />
+          <p>
+            Available in the U.S. on apple.com, in the Apple Store app, and at
+            Apple Stores.
+          </p>
+          <br />
+          <p>
+            To access and use all Apple Card features and products available
+            only to Apple Card users, you must add Apple Card to Wallet on an
+            iPhone or iPad that supports and has the latest version of iOS or
+            iPadOS. Apple Card is subject to credit approval, available only for
+            qualifying applicants in the United States, and issued by Goldman
+            Sachs Bank USA, Salt Lake City Branch.
+          </p>
+          <br />
+          <p>
+            If you reside in the U.S. territories, please call Goldman Sachs at
+            877-255-5923 with questions about Apple Card.
+          </p>
+          <br />
+          <p>
+            Learn more about how Apple Card applications are evaluated at
+            support.apple.com/kb/HT209218.
+          </p>
+          <br />
+          <p>A subscription is required for Apple TV+.</p>
+          <br />
+          <p className="pb-4">
+            A subscription is required for Apple Arcade, Apple Fitness+, and
+            Apple Music.
+          </p>
+          <hr />
+        </div>
 
-        <div className="flex justify-between pt-5">
+        <div className="lg:flex justify-between pt-5 px-4 lg:px-0 ">
           <div>
             <h3 className="font-bold">Shop and Learn</h3>
             <ul className="space-y-2 pt-3">
@@ -162,7 +164,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="pt-8 pb-4">
+        <div className="pt-8 pb-4 px-4 lg:px-0">
           <p>
             More ways to shop:{" "}
             <a href="#" className="text-blue-500">
@@ -176,14 +178,13 @@ const Footer = () => {
           </p>
         </div>
         <hr />
-        <div className="flex gap-10 pt-4 pb-4">
-            <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
-            <p>
-              Privacy Policy &nbsp;| &nbsp; Terms of Use &nbsp;|&nbsp; Sales and Refunds &nbsp;|&nbsp; Legal &nbsp;|&nbsp; Site
-              Map
-            </p>
-          </div>
-         
+        <div className="lg:flex justify-between gap-10 pt-4 pb-4 px-4 lg:px-0">
+          <p className="text-center">Copyright © 2024 Apple Inc. All rights reserved.</p>
+          <p className="hidden lg:flex">
+            Privacy Policy &nbsp;| &nbsp; Terms of Use &nbsp;|&nbsp; Sales and
+            Refunds &nbsp;|&nbsp; Legal &nbsp;|&nbsp; Site Map
+          </p>
+        </div>
       </div>
     </div>
   );

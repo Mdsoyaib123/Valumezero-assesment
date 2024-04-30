@@ -7,7 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className="">
-            <ul className="w-[996px] mx-auto flex justify-center items-center py-3 gap-6">
+            <ul className="hidden  w-[996px] mx-auto md:flex justify-center items-center py-3 gap-6">
                 <li><NavLink to='/'><IoLogoApple size={25}></IoLogoApple></NavLink></li>
                 <li><NavLink to='/'><p>Store</p></NavLink></li>
                 <li><NavLink to='/'><p>Mac</p></NavLink></li>
